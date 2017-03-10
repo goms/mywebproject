@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="FirstPage.css">
+<title>Online Chit Fund</title>
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="FirstPage.html">Online Chit Fund</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="Register.html">Register</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container" id="centered">
+    <div class="row">
+        <form method="get" action="OnlineChitFundUI/Login.java">
+        	<div class="col-lg-4">
+        	</div>
+            <div class="col-lg-4">
+                <div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span>Required Field</strong></div>
+                <div class="form-group">
+                    <label for="InputAccountNumber">Account Number</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="InputAccountNumber" name="InputAccountNumber" placeholder="zayn123" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="bankName" class="control-label">BankName </label>
+						<div class="input-group">
+							<select autofocus class="form-control">
+								<option value="icici">ICICI</option>
+								<option value="sbi">SBI</option>
+								<option value="cub">CUB</option>
+								<option value="hdfc">HDFC</option>
+							</select>
+						</div>
+                </div>
+                <input type="submit" name="update" id="update" value="update" class="btn btn-default float-xs-right">
+            </div>
+            <div class="col-lg-4">
+        	</div>
+        </form>
+    </div>
+</div>
+</body>
+
+
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="FirstPage.css">
+<title>Online Chit Fund</title>
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="FirstPage.html">Online Chit Fund</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a>Login</a></li>
+        <li><a>Register</a></li>
+        <li><a href="#logout">Log Out</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+ <div class="container">
+ <div class="row">
+ <h3>Welcome...</h3>
+ </div>
+ <div class="row2">
+ 	<ul class="nav nav-pills">
+ 		<li class="nav-item">
+ 			<a class=nav-link href="#profile" data-toggle="collapse">Profile</a>
+ 		</li>
+ 		<li class="nav-item">
+ 			<a class=nav-link href="#account" data-toggle="collapse">Account Details</a>
+ 		</li>
+ 		<li class="nav-item">
+ 			<a class=nav-link href="#transferMoney" data-toggle="collapse">Transfer Money</a>
+ 		</li>
+ 	</ul>
+ </div>
+ </div>
+ <div class="rows">
+ <div class="col-lg-2">
+ </div>
+ <div class="col-lg-8">
+ 	<div id="profile" class="collapse">
+ 		<table class="table table-hover">
+ 			<thead>
+ 				<tr>
+ 					<th>Group ID</th>
+ 					<th>Person ID</th>
+ 					<th>Group Members</th>
+ 				</tr>
+ 			</thead>
+ 			<tbody>
+ 				<tr>
+ 					<td>1</td>
+ 					<td>123</td>
+ 					<td>Gomathi</td>
+ 				</tr>
+ 				<tr>
+ 					<td>1</td>
+ 					<td>1134</td>
+ 					<td>Goms</td>
+ 				</tr>
+ 				<tr>
+ 					<td>1</td>
+ 					<td>436</td>
+ 					<td>Goma</td>
+ 				</tr>
+ 				<tr>
+ 					<td>2</td>
+ 					<td>123543</td>
+ 					<td>Gomathy</td>
+ 				</tr>	
+ 			</tbody>
+ 		</table>
+ 	</div>
+	<div class="collapse" id="account">
+		<table class="table table-hover">
+			<thead>		
+				<tr>
+ 					<th>Account Number</th>
+ 					<th>Bank Name</th>
+ 					<th>Balance</th>
+ 				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>12333432</td>
+					<td>ICICI</td>
+					<td>20000</td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center">
+						<a href="#transactiontable" data-toggle="collapse">
+							<button type="button" class="btn btn-outline">Transactions</button>
+						</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="collapse" id="transactiontable">
+			<table class="table table-hover table-striped">
+				<thead>		
+					<tr>
+ 					<th>Transaction No</th>
+ 					<th>From Account</th>
+ 					<th>To Account</th>
+ 					<th>Amount</th>
+ 					<th>Date</th>
+ 					</tr>
+				</thead>
+				<tbody>
+					<tr>
+					<td>123</td>
+					<td>8245651</td>
+					<td>6546457</td>
+					<td>5000</td>
+					<td>27/02/2017</td>
+					</tr>
+					<tr>
+					<td>124</td>
+					<td>8245651</td>
+					<td>4596440</td>
+					<td>15000</td>
+					<td>28/02/2017</td>
+					</tr>
+					<tr>
+					<td>125</td>
+					<td>8245651</td>
+					<td>9456901</td>
+					<td>10000</td>
+					<td>28/02/2017</td>
+					</tr>
+				</tbody>
+			</table> 
+	</div>
+	<div class="collapse" id="transferMoney">
+			<div class="row">
+				<form>
+					<div class="col-lg-4">
+					</div>
+					<div class="col-lg-4" align="center">
+						<div class="form-group">
+							<label for="fAcc">From Account</label>
+							<div class="input-group">
+								<input type="text" id="fAcc" value="123424" disabled>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="TAcc">To Account</label>
+							<div class="input-group">
+								<input type="text" id="TAcc">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+					</div>
+				</form>
+			</div>
+		</div>
+	<div class="col-lg-2">
+	</div> 	
+ </div>
+ </div>
+</body>
+</html>

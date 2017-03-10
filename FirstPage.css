@@ -1,0 +1,97 @@
+@CHARSET "ISO-8859-1";
+
+div.jumbotron{
+	background-color: #f4511e; /* Orange */
+    color: #ffffff;
+    text-align: center;
+     padding: 100px 25px;
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+  
+  
+#centered {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+    cursor: default;
+    color : #f4511e;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #f4511e !important;
+}
+.containers{
+	margin-top: 50px;
+	color: #f4511e;
+	text-align: center;
+}
+#submitAccount{
+	color: #f4511e;
+}
+option,select{
+	color: #f4511e;
+}
+.table-hover tbody tr:hover td{
+	color: #f4511e;
+}
+.table thead tr th{
+	color: #f4511e;
+}
+.btn-outline:hover{
+	color:white;
+	background-color: #f4511e;
+}
+.btn-outline{
+	border-color: #f4511e;
+	color: #f4511e;
+	background-color: white;
+}
+.row2 ul li a:hover{
+	color: white;
+	background-color:#f4511e;
+}
+.row2 ul li a{
+	color: #f4511e;
+	background-color:white;
+}
