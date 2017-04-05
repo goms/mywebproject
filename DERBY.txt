@@ -1,0 +1,40 @@
+				||DERBY - SERVER||
+
+set  DERBY_HOME=C:\Data\Eclipse-kepler-win32-1.0\eclipse-kepler-win32\jdk7-u51\db\
+
+
+set  JAVA_HOME=C:\Data\Eclipse-kepler-win32-1.0\eclipse-kepler-win32\jdk7-u51\bin\
+
+
+set PATH=C:\Data\Eclipse-kepler-win32-1.0\eclipse-kepler-win32\jdk7-u51\db\;C:\Data\Eclipse-kepler-win32-1.0\eclipse-kepler-win32\jdk7-u51\bin\;
+
+
+
+set  DERBY_HOME=C:\Data\Eclipse-kepler-win32-1.0\eclipse-kepler-win32\jdk7-u51\db\
+
+
+startNetworkServer -h  172.24.18.32
+
+
+				||DERBY - CLIENT||
+
+cd C:\Data\Eclipse-kepler-win32-1.0\eclipse-kepler-win32\jdk7-u51\db\bin
+
+
+set  DERBY_HOME=C:\Data\Eclipse-kepler-win32-1.0\eclipse-kepler-win32\jdk7-u51\db\
+
+
+set  JAVA_HOME=C:\Data\Eclipse-kepler-win32-1.0\eclipse-kepler-win32\jdk7-u51\bin\
+
+
+set PATH=C:\Data\Eclipse-kepler-win32-1.0\eclipse-kepler-win32\jdk7-u51\db\;C:\Data\Eclipse-kepler-win32-1.0\eclipse-kepler-win32\jdk7-u51\bin\;
+
+set  DERBY_HOME=C:\Data\Eclipse-kepler-win32-1.0\eclipse-kepler-win32\jdk7-u51\db\
+
+ij;
+
+
+connect 'jdbc:derby://172.24.18.32:1527/Project;create=true;user=goms;password=goms123;';
+
+
+
